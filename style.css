@@ -1,0 +1,22 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#movieCards {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 300px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 400px;
+}
